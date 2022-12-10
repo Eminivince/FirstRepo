@@ -1,0 +1,103 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section-one{
+        background-image: url(pexels-shvets-production-7562395.jpg);
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    #nav-container {
+        display: flex;
+        align-items: row;
+        justify-content: space-between;
+        padding: 20px 70px;
+        align-items: center;
+        background-color: rgb(18, 16, 16);
+        height: fit-content;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+    }
+    #nav-links div{
+        display: inline;
+        padding: 0px 25px;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        color: aquamarine;
+    }
+       button{
+        background-color: aquamarine;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        margin-left: 30px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        background-color: rgb(48, 92, 77);
+        color: beige;
+    }
+.first-main{
+    display: block;
+    padding-left: 120px;
+    padding-top: 29vh;
+    font-size: larger;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(175, 194, 187);
+    width: 45vw;
+}
+#main-text{
+    font-size: 25px;
+    margin-top: 25px;
+}
+#greetings{
+    background-color: rgb(38, 46, 42);
+    height: fit-content;
+    border: 2px solid aquamarine;
+    padding: 15px;
+    border-radius: 20px;
+    color: aquamarine;
+    max-width: fit-content;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+#cheers{
+    font-size: 300px;
+    color: aquamarine;
+}
+#logo{
+    color: rgb(255, 255, 255);
+}
+.contactus-btn{
+    float: right;
+    margin-right: 145px;
+    font-weight: 600;
+}
+.section-two{
+    background-color: rgb(174, 174, 154);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 120px;
+    min-height: 100vh;
+}
+.two{
+    border: solid black;
+    margin: 0px 40px;
+    background-color: white;
+    color: black;
+}
