@@ -23,9 +23,14 @@
         width: 100vw;
         top: 0;
     }
-    #nav-links div{
-        display: inline;
+    #nav-links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         padding: 0px 25px;
+    }
+    .testha{
+        padding: 0px 13px;
     }
     a{
         text-decoration: none;
@@ -100,4 +105,59 @@
     margin: 0px 40px;
     background-color: white;
     color: black;
+}
+.toggle-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+.toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media (max-width: 500px){
+    .toggle-btn{
+        display: flex;
+    }
+    #nav-links{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        
+    }
+    button{
+        margin-left: 0px;
+    }
+    .testh{
+        margin-top: 5px;
+    }
+    .testh:hover{
+        color: rgb(48, 92, 77);
+    }
+    #nav-links[data-visible="true"]{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        transition: all 0.5s;
+    }
+    .first-main{
+        display: block;
+        padding-left: 30px;
+        padding-top: 22em;
+        font-size: 0.5em;
+        line-height: 28px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(175, 194, 187);
+        width: 85%;
 }
