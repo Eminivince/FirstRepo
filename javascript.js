@@ -16,6 +16,4 @@ toggle.addEventListener('click', () => {
     navBarLinks.setAttribute("data-visible", false)
 })
 
-console.log(toggle)
-console.log(navBarLinks)
 
